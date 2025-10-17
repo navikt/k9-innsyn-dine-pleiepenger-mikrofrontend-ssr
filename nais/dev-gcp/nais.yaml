@@ -36,4 +36,4 @@ spec:
             memory: 128Mi
     env:
         - name: DINE_PLEIEPENGER_URL
-          value: 'https://dine-pleiepenger.intern.dev.nav.no/familie/sykdom-i-familien/soknad/innsyn'
+          value: 'https://dine-pleiepenger.intern.dev.nav.no'

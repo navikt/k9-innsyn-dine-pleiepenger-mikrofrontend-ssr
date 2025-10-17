@@ -1,5 +1,5 @@
 {
-    "name": "k9-innsyn-dine-pleiepenger-mikrofrontend-ssr",
+    "name": "@navikt/k9-innsyn-dine-pleiepenger-mikrofrontend-ssr",
     "type": "module",
     "version": "0.0.1",
     "scripts": {

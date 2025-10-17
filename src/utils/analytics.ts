@@ -1,10 +1,10 @@
-import type { AmplitudeEvent } from "@navikt/nav-dekoratoren-moduler";
-import { getAnalyticsInstance } from "@navikt/nav-dekoratoren-moduler";
+import type { AnalyticsEvent } from '@navikt/nav-dekoratoren-moduler';
+import { getAnalyticsInstance } from '@navikt/nav-dekoratoren-moduler';
 
-type ExtendedAmpltitudeEvent = AmplitudeEvent<"navigere", { lenketekst: string }>;
+type NavigereAnalyticsEvent = AnalyticsEvent<'navigere', { lenketekst: string; destinasjon: string }>;
 
-const analyticsLogger = getAnalyticsInstance<ExtendedAmpltitudeEvent>("tms-microfrontend-template-ssr");
+const analyticsLogger = getAnalyticsInstance<NavigereAnalyticsEvent>('k9-innsyn-dine-pleiepenger-mikrofrontend-ssr');
 
-export const logEvent = async (lenketekst: string) => {
-  await analyticsLogger("navigere", { lenketekst: lenketekst });
+export const logCardClick = async (url: string) => {
+    await analyticsLogger('navigere', { lenketekst: 'Dine pleiepenger', destinasjon: url });
 };

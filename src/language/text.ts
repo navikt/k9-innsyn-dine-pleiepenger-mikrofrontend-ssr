@@ -1,17 +1,12 @@
 export const text = {
-  title: {
-    nb: "tms-microfrontend-template-ssr (nb)",
-    en: "tms-microfrontend-template-ssr (en)",
-    nn: "tms-microfrontend-template-ssr (nn)",
-  },
-  link: {
-    nb: "Lenke",
-    en: "Link",
-    nn: "Lenkje",
-  },
-  name: {
-    nb: "Navn",
-    en: "Name",
-    nn: "Navn",
-  },
+    overskrift: {
+        nb: 'Dine pleiepenger',
+        nn: 'Dine pleiepenger',
+        en: 'Your nursing allowance',
+    },
+    underoverskrift: {
+        nb: 'Naviger til dine pleiepenger',
+        nn: 'Naviger til dine pleiepenger',
+        en: 'Navigate to your nursing allowance',
+    },
 };

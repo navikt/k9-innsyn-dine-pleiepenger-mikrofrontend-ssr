@@ -12,7 +12,7 @@ spec:
             runtime: nodejs
     tokenx:
         enabled: true
-    image: { { image } }
+    image: {{ image }}
     port: 3000
     liveness:
         path: /api/internal/isAlive

@@ -5,8 +5,8 @@ export const text = {
         en: 'Your nursing allowance',
     },
     underoverskrift: {
-        nb: 'Naviger til dine pleiepenger',
-        nn: 'Naviger til dine pleiepenger',
+        nb: 'Oversikt over saken din',
+        nn: 'Oversikt over saka di',
         en: 'Navigate to your nursing allowance',
     },
 };

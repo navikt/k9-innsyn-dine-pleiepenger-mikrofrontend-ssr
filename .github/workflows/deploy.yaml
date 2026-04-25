@@ -89,7 +89,7 @@ jobs:
         permissions:
             contents: "read"
             id-token: "write"
-        needs: [build, update-manifest-dev]
+        needs: [ build, update-manifest-dev ]
         steps:
             - uses: "actions/checkout@v6"
             - name: "Deploy to dev"
@@ -105,7 +105,7 @@ jobs:
         permissions:
             contents: "read"
             id-token: "write"
-        needs: [build, update-manifest-prod]
+        needs: [ build, update-manifest-prod ]
 
         steps:
             - uses: "actions/checkout@v6"
@@ -115,9 +115,10 @@ jobs:
                   CLUSTER: prod-gcp
                   RESOURCE: nais/prod-gcp/nais.yaml
                   VAR: image=${{ needs.build.outputs.image }},version=${{ github.sha }}
-
-  sif-code-scan:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: navikt/sif-gha-workflows/.github/actions/sif-code-scan@main
+    sif-code-scan:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: "read"
+        steps:
+            - uses: actions/checkout@v4
+            - uses: navikt/sif-gha-workflows/.github/actions/sif-code-scan@main

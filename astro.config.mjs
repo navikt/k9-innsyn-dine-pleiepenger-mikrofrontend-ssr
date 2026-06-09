@@ -6,7 +6,7 @@ import prefixer from 'postcss-prefix-selector';
 // https://astro.build/config
 export default defineConfig({
     build: {
-        assetsPrefix: 'https://cdn.nav.no/min-side/k9-innsyn-dine-pleiepenger-mikrofrontend-ssr',
+        assetsPrefix: 'https://cdn.nav.no/dusseldorf/k9-innsyn-dine-pleiepenger-mikrofrontend-ssr',
         inlineStylesheets: 'always',
     },
     vite: {

@@ -203,16 +203,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/node@npm:11.0.3":
-  version: 11.0.3
-  resolution: "@astrojs/node@npm:11.0.3"
+"@astrojs/node@npm:11.1.0":
+  version: 11.1.0
+  resolution: "@astrojs/node@npm:11.1.0"
   dependencies:
     "@astrojs/internal-helpers": "npm:0.10.2"
     send: "npm:^1.2.1"
     server-destroy: "npm:^1.0.1"
   peerDependencies:
     astro: ^7.0.0
-  checksum: 10/aed9cc41fdd55e8f88055bec34dd6ef96c86121af94af5cb09242d8d669d4d95871a6baa444eff93e467f01c187d3ee62b83be2ab0bb9d5cf1d37870d8afad6d
+  checksum: 10/399a4cb9cb54b77432b029aaffdd7138f3ef7d68587a65dd46ec97845a0bc0b67f19da781dfe700f1a97457645a9e610ac77b981620a621623b0332280a5d624
   languageName: node
   linkType: hard
 
@@ -1108,12 +1108,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hono/node-server@npm:2.0.12":
-  version: 2.0.12
-  resolution: "@hono/node-server@npm:2.0.12"
+"@hono/node-server@npm:2.1.0":
+  version: 2.1.0
+  resolution: "@hono/node-server@npm:2.1.0"
   peerDependencies:
     hono: ^4
-  checksum: 10/7900669baa2c62c97a25c2cd9dc4ba9e56bba572834fc392e8ce9d3d1aac7b78fdad6b72d2cb47bb668295253a964763a6098e546f0484cf9b96edb1d38ccdf3
+  checksum: 10/a8fbbfe017c60cc625e13cf37da5604340968037e748dab6dbe0c225880a56eac6eefd02089e3fcebe11a9ecbdc7c50bac7827ef99a654148b7f64b1c66b3ecb
   languageName: node
   linkType: hard
 
@@ -1498,9 +1498,9 @@ __metadata:
   resolution: "@navikt/k9-innsyn-dine-pleiepenger-mikrofrontend-ssr@workspace:."
   dependencies:
     "@astrojs/check": "npm:0.9.10"
-    "@astrojs/node": "npm:11.0.3"
+    "@astrojs/node": "npm:11.1.0"
     "@astrojs/react": "npm:6.0.2"
-    "@hono/node-server": "npm:2.0.12"
+    "@hono/node-server": "npm:2.1.0"
     "@navikt/aksel-icons": "npm:7.40.0"
     "@navikt/ds-css": "npm:7.40.0"
     "@navikt/ds-react": "npm:7.40.0"
@@ -1510,19 +1510,19 @@ __metadata:
     "@types/node": "npm:25.9.5"
     "@types/react": "npm:19.2.18"
     "@types/react-dom": "npm:19.2.4"
-    astro: "npm:7.1.6"
-    hono: "npm:4.12.33"
+    astro: "npm:7.2.0"
+    hono: "npm:4.13.1"
     husky: "npm:9.1.7"
     lint-staged: "npm:17.3.0"
     pino: "npm:10.3.1"
-    postcss: "npm:8.5.25"
+    postcss: "npm:8.5.26"
     postcss-prefix-selector: "npm:2.1.1"
     prettier: "npm:3.9.6"
     prettier-plugin-astro: "npm:0.14.1"
     react: "npm:19.2.8"
     react-dom: "npm:19.2.8"
     rollup-plugin-import-map: "npm:3.0.0"
-    tsx: "npm:4.23.1"
+    tsx: "npm:4.23.11"
     typescript: "npm:6.0.3"
   languageName: unknown
   linkType: soft
@@ -2165,22 +2165,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^5.3.0":
-  version: 5.3.0
-  resolution: "@rollup/pluginutils@npm:5.3.0"
-  dependencies:
-    "@types/estree": "npm:^1.0.0"
-    estree-walker: "npm:^2.0.2"
-    picomatch: "npm:^4.0.2"
-  peerDependencies:
-    rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
-  peerDependenciesMeta:
-    rollup:
-      optional: true
-  checksum: 10/6c7dbab90e0ca5918a36875f745a0f30b47d5e0f45b42ed381ad8f7fed76b23e935766b66e3ae75375a42a80369569913abc8fd2529f4338471a1b2b4dfebaff
-  languageName: node
-  linkType: hard
-
 "@shikijs/core@npm:4.0.2":
   version: 4.0.2
   resolution: "@shikijs/core@npm:4.0.2"
@@ -2320,7 +2304,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/estree@npm:*, @types/estree@npm:^1.0.0":
+"@types/estree@npm:*":
   version: 1.0.9
   resolution: "@types/estree@npm:1.0.9"
   checksum: 10/16aabfa703b5bdac83f719b07ce92a11b2d3c9b8628eacc92889d8af46cab2d78fc45c7b5378de383d0500585cea5c2f79125eeddfe5fbc6bd6a27eb0c8ccee5
@@ -2625,9 +2609,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:7.1.6":
-  version: 7.1.6
-  resolution: "astro@npm:7.1.6"
+"astro@npm:7.2.0":
+  version: 7.2.0
+  resolution: "astro@npm:7.2.0"
   dependencies:
     "@astrojs/compiler-rs": "npm:^0.3.2"
     "@astrojs/internal-helpers": "npm:0.10.2"
@@ -2636,7 +2620,6 @@ __metadata:
     "@capsizecss/unpack": "npm:^4.0.0"
     "@clack/prompts": "npm:^1.1.0"
     "@oslojs/encoding": "npm:^1.1.0"
-    "@rollup/pluginutils": "npm:^5.3.0"
     am-i-vibing: "npm:^0.4.0"
     aria-query: "npm:^5.3.2"
     axobject-query: "npm:^4.1.0"
@@ -2693,7 +2676,7 @@ __metadata:
       optional: true
   bin:
     astro: ./bin/astro.mjs
-  checksum: 10/7576638525e56fc637c3855b9dfc401a73df98b23a00ef0ec9f4c23e4e920a98830e0a7b5d9cdc22ef136ad809f30840d8330c3f66e6f40694d66c11fecd20b2
+  checksum: 10/db49c5a5eb7aaa6fe4220de6660157e1f8fd16fc07e6f5b05cbea3f2a176ee12fc2b775395adf28a2b062f485d8d1aa4b000d407326b751395e24695be175e8b
   languageName: node
   linkType: hard
 
@@ -3376,13 +3359,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"estree-walker@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "estree-walker@npm:2.0.2"
-  checksum: 10/b02109c5d46bc2ed47de4990eef770f7457b1159a229f0999a09224d2b85ffeed2d7679cffcff90aeb4448e94b0168feb5265b209cdec29aad50a3d6e93d21e2
-  languageName: node
-  linkType: hard
-
 "etag@npm:^1.8.1":
   version: 1.8.1
   resolution: "etag@npm:1.8.1"
@@ -3654,10 +3630,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:4.12.33":
-  version: 4.12.33
-  resolution: "hono@npm:4.12.33"
-  checksum: 10/1a4d8c2f05731d28785b19488d53ed629dd83f10dce79042da75dbbc9581a7205c20a840a6657d79c50c0d638057cb42adc4656ee6e8a73bde6ab0d0c4f68719
+"hono@npm:4.13.1":
+  version: 4.13.1
+  resolution: "hono@npm:4.13.1"
+  checksum: 10/0d4e3a293473a07b04eb685bf64d52bcd911b396bc0a8f580a25f0f9f92ef963c4a42607b9af597344889a193ec1724f7d0259660ad6f748bc421002dec790e3
   languageName: node
   linkType: hard
 
@@ -4380,7 +4356,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picomatch@npm:^4.0.2, picomatch@npm:^4.0.4":
+"picomatch@npm:^4.0.4":
   version: 4.0.4
   resolution: "picomatch@npm:4.0.4"
   checksum: 10/f6ef80a3590827ce20378ae110ac78209cc4f74d39236370f1780f957b7ee41c12acde0e4651b90f39983506fd2f5e449994716f516db2e9752924aff8de93ce
@@ -5271,9 +5247,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsx@npm:4.23.1":
-  version: 4.23.1
-  resolution: "tsx@npm:4.23.1"
+"tsx@npm:4.23.11":
+  version: 4.23.11
+  resolution: "tsx@npm:4.23.11"
   dependencies:
     esbuild: "npm:~0.28.0"
     fsevents: "npm:~2.3.3"
@@ -5282,7 +5258,7 @@ __metadata:
       optional: true
   bin:
     tsx: dist/cli.mjs
-  checksum: 10/01123a290130314507630f1d1cf8fa71f5e93305d5d8aa57ed012f68e3c1aef2e73f537fa6064b022cb4c813fcd0e286abd6b59db5442ece3c5105e09e10b922
+  checksum: 10/737488852cdc8597b5c983fb136173f2b5be0b703f9bf38935d623216570180386c0aafae0c11a2014ccfea01c9def1748797a3817068eb774860879204070b2
   languageName: node
   linkType: hard
 

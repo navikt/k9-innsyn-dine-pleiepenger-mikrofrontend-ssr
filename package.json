@@ -49,13 +49,16 @@
     },
     "resolutions": {
         "@grpc/grpc-js": "1.14.4",
-        "fast-uri": "3.1.4",
+        "browserslist": "4.29.0",
+        "fast-uri": "3.1.8",
         "js-yaml": "4.3.0",
         "postcss": "8.5.28",
         "protobufjs": "7.6.5",
         "rollup": ">=4.59.0",
         "h3": ">=1.15.6",
-        "svgo": "4.0.2"
+        "svgo": "4.1.0",
+        "tar": ">=7.5.22",
+        "undici": ">=8.10.2"
     },
     "npmMinimalAgeGate": 1440
 }

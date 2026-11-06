@@ -35,5 +35,7 @@ spec:
             cpu: '20m'
             memory: 128Mi
     env:
-        - name: DINE_PLEIEPENGER_URL
+        - name: LINK_CARD_URL
           value: 'https://www.nav.no/familie/sykdom-i-familien/soknad/innsyn'
+        - name: SERVICE_NAME
+          value: 'k9-innsyn-dine-pleiepenger-mikrofrontend-ssr'
